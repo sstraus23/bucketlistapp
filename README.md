@@ -1,16 +1,18 @@
-# React + Vite
+# 🚀 AWS Amplify Bucket List Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application built to practice modern cloud architecture, featuring secure user authentication and a real-time NoSQL database.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+* **Frontend:** React (Vite)
+* **Backend:** AWS Amplify Gen 2
+* **Authentication:** Amazon Cognito
+* **Database:** Amazon DynamoDB (via AppSync GraphQL)
+* **Hosting:** AWS Amplify Hosting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+* **User Auth:** Secure sign-up/sign-in flow with email verification.
+* **Real-time Data:** Instant updates to the bucket list using GraphQL subscriptions.
+* **CI/CD:** Automated deployments directly from this GitHub repository.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📈 Learning Objectives
+This project was built to master the AWS Amplify Gen 2 workflow, specifically focusing on connecting a local development sandbox to live cloud resources and managing infrastructure as code (IaC).
